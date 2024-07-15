@@ -1,7 +1,7 @@
-import { Text} from "react-native";
+import Contador from "@/components/contador";
 
 export default function TelaContador() {
     return (
-        <Text>Contador</Text>
+        <Contador valorInicial={100}/>
     )
 }

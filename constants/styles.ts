@@ -12,6 +12,17 @@ const styles = StyleSheet.create({
         paddingVertical: 10,
         borderRadius: 5
     },
+    input: {
+        borderWidth: 1,
+        borderColor: '#000000',
+        borderRadius: 5,
+        padding: 10,
+        margin: 10,
+        width: '80%'
+    },
+    inputError: {
+        borderColor: '#FF0000'
+    }
 })
 
 export default styles

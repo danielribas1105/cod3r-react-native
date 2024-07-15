@@ -37,6 +37,36 @@ export default function RootLayout() {
             ),
           }}
         />
+        <Drawer.Screen
+          name="formulario" // This is the name of the page and must match the url from root
+          options={{
+            drawerLabel: 'Formulário',
+            title: 'Formulário',
+            drawerIcon: () => (
+              <Ionicons name="file-tray-full-outline" size={18} color={'#3A98FF'}/>
+            ),
+          }}
+        />
+        <Drawer.Screen
+          name="tabs" // This is the name of the page and must match the url from root
+          options={{
+            drawerLabel: 'Tabs',
+            title: 'Tabs',
+            drawerIcon: () => (
+              <Ionicons name="albums-outline" size={18} color={'#3A98FF'}/>
+            ),
+          }}
+        />
+        <Drawer.Screen
+          name="stack" // This is the name of the page and must match the url from root
+          options={{
+            drawerLabel: 'Stack',
+            title: 'Stack',
+            drawerIcon: () => (
+              <Ionicons name="logo-stackoverflow" size={18} color={'#3A98FF'}/>
+            ),
+          }}
+        />
       </Drawer>
     </GestureHandlerRootView>
   );
