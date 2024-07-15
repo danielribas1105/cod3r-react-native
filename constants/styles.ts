@@ -6,6 +6,12 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
+    botao: {
+        backgroundColor: '#3A7EFF',
+        paddingHorizontal: 15,
+        paddingVertical: 10,
+        borderRadius: 5
+    },
 })
 
 export default styles
